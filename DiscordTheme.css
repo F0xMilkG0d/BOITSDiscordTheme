@@ -14,6 +14,13 @@
 /* Source Code */
 @import url(https://raw.githubusercontent.com/F0xMilkG0d/BOITSDiscordTheme/main/DiscordTheme.css);
 @import url('https://raw.githubusercontent.com/F0xMilkG0d/BOITSDiscordTheme/main/UserPopouts.css');
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/BetterDocsBlock.css);
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/ThemeDevBadge.css);
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
+@import url(https://discord-custom-covers.github.io/usrbg/dist/usrbg.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Popup/Yes.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Popout_Footer/Yes.css);
 
 :root {
   --Main-Colour: rgba(195,164,92,1);
