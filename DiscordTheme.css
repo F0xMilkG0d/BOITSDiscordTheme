@@ -1,12 +1,12 @@
 /**
  * @name BOITS 2020 UI
  * @author Ф0кМилкГ0д#6577
- * @version Auto
+ * @version 1.0.0
  * @description A dark, flat and modern user interface for DiscordApp, Thank you for choosing BOITS 2020 UI Inc!
  * @source https://raw.githubusercontent.com/F0xMilkG0d/BOITSDiscordTheme/main/DiscordTheme.css
- * @website
- * @authorLink dsc.bio/fmg
- * @donate paypal.me/mrf0xyg0d
+ * @website https://github.com/F0xMilkG0d/BOITSDiscordTheme
+ * @authorLink https://www.dsc.bio/fmg
+ * @donate https://www.paypal.me/mrf0xyg0d
  * @invite tTGHA7R
  * @authorId 731671855165079615
 */
@@ -14,6 +14,7 @@
 /* Source Code */
 @import url(https://raw.githubusercontent.com/F0xMilkG0d/BOITSDiscordTheme/main/DiscordTheme.css);
 @import url('https://raw.githubusercontent.com/F0xMilkG0d/BOITSDiscordTheme/main/UserPopouts.css');
+
 :root {
   --Main-Colour: rgba(195,164,92,1);
   --Background-Colour: rgba(53,35,78,1);
@@ -30,7 +31,6 @@
   --Settings-Background: url(https://i.imgur.com/Q8wuouO.jpg);
   --Callout-Background: url(https://i.imgur.com/Q8wuouO.jpg);
   --Title-Background: var(--Background-Colour);
-  --Theme-Variant: "Naruto";
   --Chat-Font-Used: "Whitney";
   --Chat-Font-Size: 15px;
   --Unread-Message-Speed: 1.5s;
@@ -43,7 +43,7 @@
   --load3: "Ф0кМилкГ0д";
   --File-Updated-2020-11-3;
   --Settings-Dock-Colour: var(--Main-Colour);
-  --Timestamp-Colour: var(--Secondary-Main-Colour);
+  --Timestamp-Colour: var(--Secondary-Main-Colour);	
   --Guild-Columns: 2;
   --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Chat-Avatar-Border-Radius: 10%;
@@ -67,7 +67,7 @@
 	padding: 0 0 25px 0;
 	position: absolute;
 	bottom: 14px;
-  right: -6px;
+        right: -6px;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
@@ -105,7 +105,7 @@
 }
   
 .theme-dark .footer-1fjuF6 {
-  display: none;
+        display: none;
 }
   
 :root {
