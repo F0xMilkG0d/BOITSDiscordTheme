@@ -1,7 +1,7 @@
 /**
  * @name F0xMilkG0d
  * @author FMG
- * @version ersion auto updates
+ * @version version auto updates
  * @description Thank you for choosing FMG Inc!
  * @source https://github.com/F0xMilkG0d/BOITSDiscordTheme
  * @website Coming
@@ -10,7 +10,7 @@
  * @invite tTGHA7R
 */
 /* Source Code */
-@import url(https://raw.githubusercontent.com/F0xMilkG0d/BOITSDiscordTheme/main/DiscordTheme);
+@import url(https://raw.githubusercontent.com/F0xMilkG0d/BOITSDiscordTheme/main/DiscordTheme.css);
 :root {
   --Main-Colour: rgba(195,164,92,1);
   --Background-Colour: rgba(53,35,78,1);
