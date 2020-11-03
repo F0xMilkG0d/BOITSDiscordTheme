@@ -23,11 +23,11 @@
   --Chat-Input-Colour: var(--Main-Colour);
   --Unread-Message-1: var(--Main-Colour);
   --Unread-Message-2: var(--Background-Colour);
-  --Chat-Background: url();
-  --Settings-Background: url();
-  --Callout-Background: url();
+  --Chat-Background: url(https://i.imgur.com/Q8wuouO.jpg);
+  --Settings-Background: url(https://i.imgur.com/Q8wuouO.jpg);
+  --Callout-Background: url(https://i.imgur.com/Q8wuouO.jpg);
   --Title-Background: var(--Background-Colour);
-  --Theme-Variant: "FMG";
+  --Theme-Variant: "Naruto";
   --Chat-Font-Used: "Whitney";
   --Chat-Font-Size: 15px;
   --Unread-Message-Speed: 1.5s;
