@@ -1,52 +1,46 @@
 /**
- * @name BOITS 2020 UI
+ * @name BOITS 2020
  * @author Ф0кМилкГ0д#6577
- * @version 1.0.0
- * @description A dark, flat and modern user interface for DiscordApp, Thank you for choosing BOITS 2020 UI Inc!
- * @source https://raw.githubusercontent.com/F0xMilkG0d/BOITSDiscordTheme/main/DiscordTheme.css
- * @website https://github.com/F0xMilkG0d/BOITSDiscordTheme
- * @authorLink https://www.dsc.bio/fmg
- * @donate https://www.paypal.me/mrf0xyg0d
+ * @version 1.0.5
+ * @description Thank you for choosing BOITS 2020 UI Inc!
  * @invite tTGHA7R
+ * @donate https://www.paypal.me/mrf0xyg0d
  * @authorId 731671855165079615
+ * @source https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/BasicBackground/BasicBackground.theme.css
+ * @website https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BasicBackground
 */
 
-/* Source Code */
-@import url('https://raw.githubusercontent.com/F0xMilkG0d/BOITSDiscordTheme/main/DiscordTheme.css');
-@import url('https://raw.githubusercontent.com/F0xMilkG0d/BOITSDiscordTheme/main/UserPopouts.css');
+@import url('https://fonts.googleapis.com/css2?family=https://fonts.google.com/specimen/Fjalla+One#standard-styles:wght@100;300;400;500;700&display=swap');
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css');
+@import url('https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css');
 
-.reduce-motion .userPopout-3XzG_A {
-	transform:translateZ(0);
-}
-
-.userPopout-3XzG_A .wrapper-3t9DeA::after {
-	content: '';
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-	pointer-events: none;
-	opacity: .5;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: var(--user-popout-position) center;
-	background-image: var(--user-background);
-	-webkit-mask-image: linear-gradient(#000, transparent);
-}
-
-.userPopout-3XzG_A  .header-2BwW8b,
-.userPopout-3XzG_A  .scroller-2FKFPG,
-.userPopout-3XzG_A  .footer-1fjuF6 {
-	z-index: 1;
-}
-
-.userPopout-3XzG_A {
-	--user-popout-position: center;
-}
-
-[user_by_bdfdb*="731671855165079615"],
-[data-user-id*="731671855165079615"],
-	--user-background: url('https://i.imgur.com/Q8wuouO.jpg');
+:root {
+  --background: url('https://i.imgur.com/h2CF319.jpg');
+  --backgroundsize: cover;
+  --backgroundblur: 10px;
+  --popout: url('https://i.imgur.com/3BW3lWi.jpg');
+  --popoutsize: cover;
+  --popoutblur: 5px;
+  --transparencycolor: 0,0,0;
+  --transparencyalpha: 0.6;
+  --messagetransparency: 0;
+  --guildchanneltransparency: 0;
+  --memberlisttransparency: 0;
+  --accentcolor: 90,94,0;
+  --backdrop: rgba(0,0,0,1);
+  --backdropsize: var(--background-size);
+  --backdropblur: 0px;
+  --font: 'url('https://fonts.google.com/specimen/Fjalla+One#standard-styles')';
+  --textshadow: rgba(0,0,0,1);
+  --version1_0_5: none;
+  --rs-small-spacing: 0px;
+  --rs-large-spacing: 20px;
+  --rs-width: 5px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #00ff8b;
+  --rs-idle-color: #ff9f00;
+  --rs-dnd-color: #ff0000;
+  --rs-offline-color: #000000;
+  --rs-streaming-color: #5e00ff;
+  --rs-invisible-color: #747f8d;
 }
