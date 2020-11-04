@@ -27,6 +27,13 @@
   --guildchanneltransparency: 0;
   --memberlisttransparency: 0;
   --accentcolor: 90,94,0;
+  --color-high: rgb(87, 84, 74);
+  --color-low: rgb(218, 212, 187);
+  --color-mid: rgb(151, 147, 129);
+  --color-alert: rgb(205, 102, 77);
+  --color-high-trans: rgba(87, 84, 74, 0.6);
+  --color-low-trans: rgba(218, 212, 187, 0.8);
+  --color-alert-trans: rgba(205, 102, 77, 0.7);
   --backdrop: rgba(0,0,0,1);
   --backdropsize: var(--background-size);
   --backdropblur: 0px;
